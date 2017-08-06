@@ -1,6 +1,6 @@
 const Telegraf = require('telegraf');
  
-const app = new Telegraf('379443264:AAHHhmziOVsYWMB0tnEelxUF6jSLv-39U2U');
+const app = new Telegraf('415745162:AAFyy9mq-h3quRSUW_7fhyf_RICe_qf2aLM');
 app.command('start', (ctx) => {
     console.log(ctx.update.message.from);
     return ctx.reply(`Welcome Dear ${ctx.update.message.from.first_name} ${ctx.update.message.from.last_name}. please upload your media file! ;)`);
