@@ -2,11 +2,11 @@
   "name": "mediasharebot",
   "version": "1.0.0",
   "description": "",
-  "main": "mediasharebot.js",
+  "main": "mediasharerobot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Mehdi Moshtaghi",
   "license": "ISC",
   "dependencies": {
     "telegraf": "^3.9.0"
